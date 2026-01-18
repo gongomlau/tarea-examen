@@ -12,7 +12,7 @@ export class OpenLibraryService {
   private apiUrl = 'https://openlibrary.org/search.json';
 
   // Imagen por defecto para libros sin portada
-  private defaultCover = '../../../public/img/default-cover.jpg';
+  private defaultCover = '/img/default-cover.jpg';
 
   constructor(private http: HttpClient) {}
 
